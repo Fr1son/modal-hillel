@@ -4,9 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Modal window</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/stylesheet.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-  
+  <section class="section">
+    <div class="modal">
+      <h1 class="title">
+        We would like to help you
+      </h1>
+      <form action="#">
+        <input class="name" type="text" name="name" placeholder="Name">
+        <input class="message" type="text" name="message" placeholder="Message">
+      </form>
+      <h3 class="sub-title">
+        How to answer you?
+      </h3>
+      <input class="phone" type="text" name="phone" placeholder="Phone number">
+      <input class="email" type="email" name="email" placeholder="Email" required>
+      <button class="btn" type="submit">
+        Send message
+      </button>
+    </div>
+  </section>
 </body>
 </html>
